@@ -1,0 +1,238 @@
+{
+  "positions": ["**", "HHH", "****", "HHHHH", "******"],
+  "cards": [
+    {
+      "title": "Mine",
+      "cost": { "amount": 1, "resource": "GOLD" },
+      "era": 1,
+      "effect": {
+        "type": "resource",
+        "details": { "resource": "STONE", "amount": 1 }
+      },
+      "hidden": false,
+      "image": "http://placehold.it/200x400"
+    },
+    {
+      "title": "Gisement",
+      "era": 1,
+      "effect": {
+        "type": "resource",
+        "details": { "resource": "STONE", "amount": 1 }
+      },
+      "hidden": false,
+      "image": "http://placehold.it/200x400"
+    },
+    {
+      "title": "Chantier",
+      "era": 1,
+      "effect": {
+        "type": "resource",
+        "details": { "resource": "WOOD", "amount": 1 }
+      },
+      "hidden": false,
+      "image": "http://placehold.it/200x400"
+    },
+    {
+      "title": "Bains",
+      "cost": { "amount": 1, "resource": "STONE" },
+      "chain": "DROP",
+      "era": 1,
+      "effect": { "type": "victory" },
+      "hidden": false,
+      "image": "http://placehold.it/200x400",
+      "symbol": "DROP",
+      "score": 3
+    },
+    {
+      "title": "Dépot d'argile",
+      "cost": { "amount": 3, "resource": "GOLD" },
+      "era": 1,
+      "effect": {
+        "type": "commerce",
+        "details": { "resource": "ARGILE", "cost": 1 }
+      },
+      "hidden": false,
+      "image": "http://placehold.it/200x400"
+    },
+    {
+      "title": "Dépot de pierre",
+      "cost": { "amount": 3, "resource": "GOLD" },
+      "era": 1,
+      "effect": {
+        "type": "commerce",
+        "details": { "resource": "STONE", "cost": 1 }
+      },
+      "hidden": false,
+      "image": "http://placehold.it/200x400"
+    },
+    {
+      "title": "Taverne",
+      "effect": {
+        "type": "commerce",
+        "details": { "resource": "GOLD", "amount": 4 },
+        "immediate": true
+      },
+      "symbol": "JARRE",
+      "era": 1,
+      "hidden": false,
+      "image": "http://placehold.it/200x400"
+    },
+    {
+      "title": "Palissade",
+      "cost": { "amount": 2, "resource": "GOLD" },
+      "symbol": "TOWER",
+      "effect": { "type": "war", "details": { "count": 1 }, "immediate": true },
+      "era": 1,
+      "hidden": false,
+      "image": "http://placehold.it/200x400"
+    },
+    {
+      "title": "Officine",
+      "cost": { "amount": 2, "resource": "GOLD" },
+      "symbol": "COG",
+      "effect": {
+        "type": "science",
+        "details": { "symbol": "BOL" },
+        "immediate": true
+      },
+      "era": 1,
+      "hidden": false,
+      "image": "http://placehold.it/200x400"
+    },
+    {
+      "title": "Autel",
+      "symbol": "MOON",
+      "effect": { "type": "victory" },
+      "era": 1,
+      "hidden": false,
+      "image": "http://placehold.it/200x400",
+      "score": 3
+    },
+    {
+      "title": "Théâtre",
+      "symbol": "MASK",
+      "effect": { "type": "victory" },
+      "era": 1,
+      "hidden": false,
+      "image": "http://placehold.it/200x400",
+      "score": 1
+    },
+    {
+      "title": "Apothicaire",
+      "effect": { "type": "science", "details": { "symbol": "WHEEL" } },
+      "cost": { "resource": "WATER", "amount": 1 },
+      "era": 1,
+      "hidden": false,
+      "image": "http://placehold.it/200x400",
+      "score": 1
+    },
+    {
+      "title": "Atelier",
+      "effect": { "type": "science", "details": { "symbol": "COMPASS" } },
+      "cost": { "resource": "PAPER", "amount": 1 },
+      "era": 1,
+      "hidden": false,
+      "image": "http://placehold.it/200x400",
+      "score": 1
+    },
+    {
+      "title": "Scriptorium",
+      "effect": { "type": "science", "details": { "symbol": "INK" } },
+      "cost": { "resource": "GOLD", "amount": 2 },
+      "symbol": "BOOK",
+      "era": 1,
+      "hidden": false,
+      "image": "http://placehold.it/200x400"
+    },
+    {
+      "title": "Dépôt de bois",
+      "effect": {
+        "type": "commerce",
+        "details": { "resource": "WOOD", "cost": 1 }
+      },
+      "cost": { "resource": "GOLD", "amount": 3 },
+      "era": 1,
+      "hidden": false,
+      "image": "http://placehold.it/200x400"
+    },
+    {
+      "title": "Caserne",
+      "effect": { "type": "war", "details": { "count": 1 }, "immediate": true },
+      "cost": { "resource": "ARGILE", "amount": 1 },
+      "symbol": "SWORD",
+      "era": 1,
+      "hidden": false,
+      "image": "http://placehold.it/200x400"
+    },
+    {
+      "title": "Cavité",
+      "effect": {
+        "type": "resource",
+        "details": { "resource": "ARGILE", "amount": 1 }
+      },
+      "cost": { "resource": "GOLD", "amount": 1 },
+      "era": 1,
+      "hidden": false,
+      "image": "http://placehold.it/200x400"
+    },
+    {
+      "title": "Presse",
+      "effect": {
+        "type": "resource",
+        "details": { "resource": "PAPER", "amount": 1 }
+      },
+      "cost": { "resource": "GOLD", "amount": 1 },
+      "era": 1,
+      "hidden": false,
+      "image": "http://placehold.it/200x400"
+    },
+    {
+      "title": "Exploitation",
+      "effect": {
+        "type": "resource",
+        "details": { "resource": "WOOD", "amount": 1 }
+      },
+      "cost": { "resource": "GOLD", "amount": 1 },
+      "era": 1,
+      "hidden": false,
+      "image": "http://placehold.it/200x400"
+    },
+    {
+      "title": "Bassin Argileux",
+      "effect": {
+        "type": "resource",
+        "details": { "resource": "ARGILE", "amount": 1 }
+      },
+      "era": 1,
+      "hidden": false,
+      "image": "http://placehold.it/200x400"
+    },
+    {
+      "title": "Verrerie",
+      "effect": {
+        "type": "resource",
+        "details": { "resource": "WATER", "amount": 1 }
+      },
+      "cost": { "resource": "GOLD", "amount": 1 },
+      "era": 1,
+      "hidden": false,
+      "image": "http://placehold.it/200x400"
+    },
+    {
+      "title": "Ecurie",
+      "effect": { "type": "war", "details": { "count": 1 }, "immediate": true },
+      "cost": { "resource": "WOOD", "amount": 1 },
+      "symbol": "HORSE",
+      "era": 1,
+      "hidden": false,
+      "image": "http://placehold.it/200x400"
+    },
+    {
+      "title": "Tour de garde",
+      "effect": { "type": "war", "details": { "count": 1 }, "immediate": true },
+      "era": 1,
+      "hidden": false,
+      "image": "http://placehold.it/200x400"
+    }
+  ]
+}
